@@ -53,11 +53,11 @@ jobs:
  
       - name: Executando os testes de FRONT do Robot
  
-        # run: echo Executando os testes de API do Robot
+        # run: echo Executando os testes de front do Robot
  
         run: |
  
-          robot --outputdir results/ tests/
+          robot --outputdir results/ Tests/
  
       - name: Salvando o Report dos Testes
  
